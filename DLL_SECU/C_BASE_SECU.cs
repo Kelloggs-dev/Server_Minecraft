@@ -1,6 +1,6 @@
 ﻿namespace DLL_SECU
 {
-    public class Class1
+    public class C_BASE_SECU
     {
 
     }

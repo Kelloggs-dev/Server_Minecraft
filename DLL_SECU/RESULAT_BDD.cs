@@ -8,6 +8,6 @@ namespace DLL_SECU
 {
     public enum RESULAT_BDD
     {
-        Ok = 0,ERREUR = 255,ERREUR_AJOUT = 1,EXISTE_DEJA = 2, MDP_FAIBLE = 3
+        Ok = 0,ERREUR = 255,ERREUR_AJOUT = 1,EXISTE_DEJA = 2, MDP_FAIBLE = 3, EXISTE_PAS = 4,ERREUR_MDP = 5, MAIL_NON_VALIDE = 6
     }
 }

@@ -4,14 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-#nullable disable
-
 namespace DLL_SECU
 {
-    public class C_NOM_UTILISATEUR
+    public enum ROLE
     {
-
-        public Guid Id_User { get; set; }
-        public string Nom_Utilisateur { get; set; }
+        Joueur = 1,Admin = 500
     }
 }

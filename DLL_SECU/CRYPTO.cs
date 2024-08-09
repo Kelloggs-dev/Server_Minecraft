@@ -53,5 +53,11 @@ namespace DLL_SECU
             string Modele = @"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$";
             return Regex.IsMatch(P_Mot_De_Passe, Modele);
         }
+
+        public static bool Verifie_Valide_Mail(string P_Mail)
+        {
+            string ModeleEmail = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
+            return Regex.IsMatch(P_Mail, ModeleEmail);
+        }
     }
 }
